@@ -1,0 +1,32 @@
+{
+  "name": "epytodo",
+  "version": "1.0.0",
+  "description": "EpyTODO is a todo list for epitech",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechPromo2028/B-WEB-200-LIL-2-1-epytodo-mathis.bukowski.git"
+  },
+  "author": "mathisbukowski, rafaeldrouart, raphaelrichaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechPromo2028/B-WEB-200-LIL-2-1-epytodo-mathis.bukowski/issues"
+  },
+  "homepage": "https://github.com/EpitechPromo2028/B-WEB-200-LIL-2-1-epytodo-mathis.bukowski#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
